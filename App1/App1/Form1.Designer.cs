@@ -33,6 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBoxDesc = new System.Windows.Forms.RichTextBox();
             this.btn_Show = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxImplementor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +67,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 109);
+            this.label2.Location = new System.Drawing.Point(9, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 13);
             this.label2.TabIndex = 2;
@@ -73,7 +75,7 @@
             // 
             // richTextBoxDesc
             // 
-            this.richTextBoxDesc.Location = new System.Drawing.Point(133, 109);
+            this.richTextBoxDesc.Location = new System.Drawing.Point(133, 123);
             this.richTextBoxDesc.Name = "richTextBoxDesc";
             this.richTextBoxDesc.Size = new System.Drawing.Size(283, 96);
             this.richTextBoxDesc.TabIndex = 3;
@@ -81,7 +83,7 @@
             // 
             // btn_Show
             // 
-            this.btn_Show.Location = new System.Drawing.Point(133, 231);
+            this.btn_Show.Location = new System.Drawing.Point(133, 245);
             this.btn_Show.Name = "btn_Show";
             this.btn_Show.Size = new System.Drawing.Size(240, 23);
             this.btn_Show.TabIndex = 4;
@@ -89,11 +91,30 @@
             this.btn_Show.UseVisualStyleBackColor = true;
             this.btn_Show.Click += new System.EventHandler(this.btn_Show_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 82);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(88, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Change done by:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // textBoxImplementor
+            // 
+            this.textBoxImplementor.Location = new System.Drawing.Point(133, 78);
+            this.textBoxImplementor.Name = "textBoxImplementor";
+            this.textBoxImplementor.Size = new System.Drawing.Size(121, 20);
+            this.textBoxImplementor.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 321);
+            this.Controls.Add(this.textBoxImplementor);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_Show);
             this.Controls.Add(this.richTextBoxDesc);
             this.Controls.Add(this.label2);
@@ -113,6 +134,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBoxDesc;
         private System.Windows.Forms.Button btn_Show;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxImplementor;
     }
 }
 

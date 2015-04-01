@@ -22,11 +22,19 @@ namespace App1
             string comboValue;
             string richTextBoxValue;
             string combinedValue;
+            string ImplementatorValue;
 
             comboValue = comboBoxAction.SelectedItem.ToString();
             richTextBoxValue = richTextBoxDesc.Text;
-            combinedValue = comboValue + "-" + richTextBoxValue;
-            MessageBox.Show(combinedValue);
+            ImplementatorValue = textBoxImplementor.Text;
+            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue;
+            MessageBox.Show(combinedValue,"Alert",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Asterisk);
+            
        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
