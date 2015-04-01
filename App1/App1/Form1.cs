@@ -28,9 +28,9 @@ namespace App1
             comboValue = comboBoxAction.SelectedItem.ToString();
             richTextBoxValue = richTextBoxDesc.Text;
             ImplementatorValue = textBoxImplementor.Text;
-            //Status=
+            Status = comboBoxStatus.SelectedItem.ToString();
 
-            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue;
+            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue+"-"+Status;
             MessageBox.Show(combinedValue,"Alert",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Asterisk);
             
        }
@@ -38,6 +38,11 @@ namespace App1
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
