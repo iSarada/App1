@@ -28,10 +28,9 @@ namespace App1
             comboValue = comboBoxAction.SelectedItem.ToString();
             richTextBoxValue = richTextBoxDesc.Text;
             ImplementatorValue = textBoxImplementor.Text;
-            Status = comboBoxStatus.SelectedItem.ToString();
+            //Status=
 
-            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue+"-"+Status;
-
+            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue;
             MessageBox.Show(combinedValue,"Alert",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Asterisk);
             
        }

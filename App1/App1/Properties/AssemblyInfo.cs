@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("App1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Config Change Log")]
+[assembly: AssemblyDescription("This App logs all the changes done to the config file.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("App1")]
+[assembly: AssemblyCompany("iSmartCon")]
+[assembly: AssemblyProduct("COnfigLog")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
