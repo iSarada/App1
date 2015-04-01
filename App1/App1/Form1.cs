@@ -15,6 +15,7 @@ namespace App1
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void btn_Show_Click(object sender, EventArgs e)
@@ -42,7 +43,8 @@ namespace App1
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            AboutBox a = new AboutBox();
+            a.Show();
         }
     }
 }

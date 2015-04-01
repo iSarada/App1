@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("This App logs all the changes done to the config file.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("iSmartCon")]
-[assembly: AssemblyProduct("COnfigLog")]
+[assembly: AssemblyProduct("ConfigLog")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
