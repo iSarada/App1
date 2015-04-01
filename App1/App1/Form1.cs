@@ -23,11 +23,15 @@ namespace App1
             string richTextBoxValue;
             string combinedValue;
             string ImplementatorValue;
+            string Status;
 
             comboValue = comboBoxAction.SelectedItem.ToString();
             richTextBoxValue = richTextBoxDesc.Text;
             ImplementatorValue = textBoxImplementor.Text;
-            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue;
+            Status = comboBoxStatus.SelectedItem.ToString();
+
+            combinedValue = comboValue + "-" + richTextBoxValue + "-" + ImplementatorValue+"-"+Status;
+
             MessageBox.Show(combinedValue,"Alert",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Asterisk);
             
        }
