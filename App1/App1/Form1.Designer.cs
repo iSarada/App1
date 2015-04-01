@@ -38,7 +38,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 67);
+            this.label1.Location = new System.Drawing.Point(9, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 0;
@@ -57,7 +57,7 @@
             "Installed",
             "Go Live",
             "Bug"});
-            this.comboBoxAction.Location = new System.Drawing.Point(133, 59);
+            this.comboBoxAction.Location = new System.Drawing.Point(133, 37);
             this.comboBoxAction.Name = "comboBoxAction";
             this.comboBoxAction.Size = new System.Drawing.Size(121, 21);
             this.comboBoxAction.TabIndex = 1;
@@ -65,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 112);
+            this.label2.Location = new System.Drawing.Point(9, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 13);
             this.label2.TabIndex = 2;
@@ -87,12 +87,13 @@
             this.btn_Show.TabIndex = 4;
             this.btn_Show.Text = "Show Result Now !";
             this.btn_Show.UseVisualStyleBackColor = true;
+            this.btn_Show.Click += new System.EventHandler(this.btn_Show_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 266);
+            this.ClientSize = new System.Drawing.Size(610, 321);
             this.Controls.Add(this.btn_Show);
             this.Controls.Add(this.richTextBoxDesc);
             this.Controls.Add(this.label2);

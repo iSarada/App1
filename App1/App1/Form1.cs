@@ -16,5 +16,17 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private void btn_Show_Click(object sender, EventArgs e)
+        {
+            string comboValue;
+            string richTextBoxValue;
+            string combinedValue;
+
+            comboValue = comboBoxAction.SelectedItem.ToString();
+            richTextBoxValue = richTextBoxDesc.Text;
+            combinedValue = comboValue + "-" + richTextBoxValue;
+            MessageBox.Show(combinedValue);
+       }
     }
 }
